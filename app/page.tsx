@@ -6,12 +6,14 @@ import IntegrationsComponent from '@/components/Integration/workflow';
 import ImgC from '@/components/imagee/page';
 import Hero from '@/components/hero/hero';
 import CreditCard from '@/components/creditcard/creditcard';
+import FeedbackToolUI from '@/components/bento/ui';
 
 export default function Home() {
   return (
     <>
       <Hero />
       <TestimonialsSection />
+      <FeedbackToolUI/>
       <Insights />
       <ImgC />
       <FeedbackSystem />
